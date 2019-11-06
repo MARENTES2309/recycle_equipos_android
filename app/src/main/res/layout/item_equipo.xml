@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imgEquipo"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+           android:src="@drawable/santos_lag" />
+
+
+        <TextView
+            android:id="@+id/tvequipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/imgEquipo"
+            android:layout_toRightOf="@+id/imgEquipo"
+            android:text="Santos_Laguna"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvlugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvequipo"
+            android:layout_toEndOf="@+id/imgEquipo"
+            android:layout_toRightOf="@+id/imgEquipo"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Torreón"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
