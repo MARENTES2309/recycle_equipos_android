@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         equipo.add(new equipo("Tigres","San Nicolas",R.drawable.tigres));
         equipo.add(new equipo("Real Madrid","España",R.drawable.real_madrid));
         equipo.add(new equipo("Barcelona","España",R.drawable.barcelona));
+        equipo.add(new equipo("Borussia","Alemania",R.drawable.borussia));
         return  equipo;
     }
 }
